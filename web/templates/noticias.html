@@ -1,0 +1,234 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+
+{% block title %}
+Noticias | Cake
+{% endblock %}
+
+
+{% block content %}
+
+
+    <section class="hero">
+ 
+      <div class="container text-center">
+
+        <h1>Noticias y Artículos</h1>
+
+        <p>
+
+            Descubre consejos, tendencias y curiosidades sobre el mundo de la repostería.
+
+        </p>
+
+        <a href="index.html" class="btn btn-outline-light">
+
+            <i class="bi bi-house-fill"></i>
+
+            Volver al Inicio
+
+        </a>
+
+     </div>
+
+     </section>
+
+   <section class="container py-5">
+
+    <div class="row g-4">
+        
+        <div class="col-md-4">
+
+            <div class="card noticia h-100">
+
+                <img src="Decoracion.jpg" class="card-img-top" alt="Decoración de pasteles">
+
+                <div class="card-body">
+
+                    <small class="fecha">
+
+                        10 de julio de 2026
+
+                    </small>
+
+                    <h4>
+
+                        Tendencias en decoración de pasteles
+
+                    </h4>
+
+                    <p>
+
+                        Conoce las técnicas más populares para decorar pasteles con acabados elegantes y modernos.
+
+                    </p>
+
+                    <button class="btn btn-primary">
+
+                        Leer más
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-md-4">
+
+            <div class="card noticia h-100">
+
+                <img src="Cons.webp" class="card-img-top" alt="Conservar pasteles">
+
+                <div class="card-body">
+
+                    <small class="fecha">
+
+                        8 de julio de 2026
+
+                    </small>
+
+                    <h4>
+
+                        Cómo conservar un pastel
+
+                    </h4>
+
+                    <p>
+
+                        Aprende los mejores consejos para mantener la frescura y el sabor de tus pasteles.
+
+                    </p>
+
+                    <button class="btn btn-primary">
+
+                        Leer más
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        
+
+        <div class="col-md-4">
+
+            <div class="card noticia h-100">
+
+                <img src="Sabores.avif" class="card-img-top" alt="Sabores">
+
+                <div class="card-body">
+
+                    <small class="fecha">
+
+                        5 de julio de 2026
+
+                    </small>
+
+                    <h4>
+
+                        Los sabores favoritos del año
+
+                    </h4>
+
+                    <p>
+
+                        Chocolate, vainilla y frutos rojos continúan siendo los preferidos por nuestros clientes.
+
+                    </p>
+
+                    <button class="btn btn-primary">
+
+                        Leer más
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+   </section>
+ 
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+   <script src="script.js"></script>
+
+ <div class="modal fade" id="modalPrivacidad" tabindex="-1">
+
+    <div class="modal-dialog modal-lg">
+
+        <div class="modal-content">
+
+            <div class="modal-header">
+
+                <h4 class="modal-title">
+
+                    Política de Privacidad
+
+                </h4>
+
+                <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal">
+
+                </button>
+
+            </div>
+
+            <div class="modal-body">
+
+                <p>
+
+                    En <strong>Sweet Cakes</strong> respetamos la privacidad de nuestros visitantes.
+
+                </p>
+
+                <p>
+
+                    La información proporcionada mediante el formulario de contacto será utilizada únicamente para responder consultas y brindar información sobre nuestros productos.
+
+                </p>
+
+                <p>
+
+                    No compartimos información personal con terceros y protegemos los datos recibidos mediante buenas prácticas de seguridad.
+
+                </p>
+
+                <p>
+
+                    Al utilizar este sitio web, aceptas nuestra política de privacidad y el tratamiento responsable de la información proporcionada.
+
+                </p>
+
+            </div>
+
+            <div class="modal-footer">
+
+                <button
+                    class="btn btn-primary"
+                    data-bs-dismiss="modal">
+
+                    Aceptar
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+ </div>
+
+{% endblock %}
